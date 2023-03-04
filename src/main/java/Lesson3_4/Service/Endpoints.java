@@ -1,4 +1,4 @@
-package Lesson3;
+package Lesson3_4.Service;
 
 public final class Endpoints {
 
@@ -6,5 +6,5 @@ public final class Endpoints {
 
     public static final String postClass = "recipes/cuisine";
 
-    public static final String mealPlan = "https://api.spoonacular.com/mealplanner/antil_anton_73/items/";
+    public static final String mealPlan = "https://api.spoonacular.com/mealplanner/antil_deangelo-blick/items/";
 }

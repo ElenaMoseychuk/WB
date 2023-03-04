@@ -1,11 +1,12 @@
-package Lesson3;
+package Lesson3_4;
 
+import Lesson3_4.Service.Endpoints;
 import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.specification.RequestSpecification;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-
+//import service.Endpoints;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.is;

@@ -1,6 +1,8 @@
-package Lesson3;
+package Lesson3_4;
 
+import Lesson3_4.Service.Endpoints;
 import org.junit.jupiter.api.Test;
+//import service.Endpoints;
 
 import java.io.File;
 

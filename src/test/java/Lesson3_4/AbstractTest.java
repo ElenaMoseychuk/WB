@@ -1,4 +1,4 @@
-package Lesson3;
+package Lesson3_4;
 
 import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
