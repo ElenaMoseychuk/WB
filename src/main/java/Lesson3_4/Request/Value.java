@@ -1,6 +1,5 @@
 package Lesson3_4.Request;
 
-import Lesson3_4.Request.Ingredient;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
@@ -13,8 +12,9 @@ import java.util.List;
 
 @Generated("jsonschema2pojo")
 @Data
-
 public class Value {
+
     @JsonProperty("ingredients")
-    public List<Ingredient> ingredients = new ArrayList<Ingredient>();
+    private List<Ingredient> ingredients = new ArrayList<Ingredient>();
+
 }

@@ -10,12 +10,14 @@ import lombok.Data;
         "status",
         "id"
 })
-@Data
 
+@Data
 public class AddMealResponse {
+
     @JsonProperty("status")
-    public String status;
+    private String status;
     @JsonProperty("id")
-    public Integer id;
+    private Integer id;
 
 }
+

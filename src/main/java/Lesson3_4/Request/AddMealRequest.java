@@ -18,14 +18,16 @@ import javax.annotation.processing.Generated;
 @Generated("jsonschema2pojo")
 @Data
 public class AddMealRequest {
+
     @JsonProperty("date")
-    public Integer date;
+    private Integer date;
     @JsonProperty("slot")
-    public Integer slot;
+    private Integer slot;
     @JsonProperty("position")
-    public Integer position;
+    private Integer position;
     @JsonProperty("type")
-    public String type;
+    private String type;
     @JsonProperty("value")
-    public Value value;
+    private Value value;
+
 }

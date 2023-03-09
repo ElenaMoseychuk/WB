@@ -10,8 +10,9 @@ import javax.annotation.processing.Generated;
 
 @Generated("jsonschema2pojo")
 @Data
-
 public class Ingredient {
+
     @JsonProperty("name")
-    public String name;
+    private String name;
+
 }
